@@ -1,0 +1,128 @@
+/* Write your CSS here */
+.bgcon {
+  background-color: #dee0e3;
+  font-family: roboto;
+  padding: 25px;
+}
+
+.main-head {
+  color: #1e293b;
+  font-size: 30px;
+}
+
+.form-img-con {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .bgcon {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-con {
+    width: 85%;
+  }
+  .main-head {
+    align-self: flex-start;
+    font-size: 45px;
+  }
+  .form-img-con {
+    flex-direction: row;
+  }
+}
+
+.main-img {
+  width: 75%;
+}
+
+@media screen and (min-width: 768px) {
+  .main-img {
+    order: 1;
+    width: 45%;
+  }
+}
+
+.form-desc {
+  color: #475569;
+  font-weight: bold;
+}
+
+input {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+textarea {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  input {
+    width: 80%;
+  }
+
+  textarea {
+    width: 80%;
+  }
+}
+
+.add-btn {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .add-btn {
+    width: 120px;
+    height: 35px;
+  }
+}
+
+hr {
+  margin-top: 15px;
+  color: #cbd2d9;
+  width: 100%;
+}
+
+.comment-count-text {
+  color: #334155;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-count-text {
+    align-self: flex-start;
+  }
+}
+
+.comment-count {
+  color: #ffffff;
+  background-color: #0284c7;
+  border-radius: 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 5px;
+}
+
+ul {
+  padding-left: 0px;
+}
